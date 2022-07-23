@@ -8,8 +8,7 @@ body {
     height: 90vh;
     background-color: #091921;
     color: #9c9b9b;
-    font-family: Gotham Rounded, sans-serif;
-}
+    font-family: 'Barlow', sans-serif;}
 
 /* Analog Clock */
 .analog-clock {
