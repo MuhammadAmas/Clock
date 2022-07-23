@@ -16,9 +16,6 @@ function analogClockTime(){
 setInterval(analogClockTime, 1000);
 
 
-
-
-
 //Digital Clock
 function time() {
     let dateTime = new Date();
