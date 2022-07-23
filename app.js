@@ -17,6 +17,7 @@ function analogClockTime() {
     // Clock ticking sound 
     let audio = new Audio('c.wav');
     audio.play();
+    audio.volume = 0.5;
 }
 
 //Digital Clock

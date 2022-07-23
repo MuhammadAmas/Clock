@@ -8,7 +8,8 @@ body {
     height: 90vh;
     background-color: #091921;
     color: #9c9b9b;
-    font-family: 'Barlow', sans-serif;}
+    font-family: 'Barlow', sans-serif;
+}
 
 /* Analog Clock */
 .analog-clock {
@@ -129,4 +130,5 @@ body {
     .display-clock {
         font-size: 2rem;
     }
+    
 }
