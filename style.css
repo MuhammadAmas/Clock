@@ -106,7 +106,6 @@ body {
 }
 
 .present-day {
-    /* margin-top:60px; */
     font-size: 1.5rem;
     display: block;
     position: absolute;
@@ -136,10 +135,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .analog-clock {
-        width: 350px;
-        height: 350px;
-    }
 
     .display-clock {
         font-size: 2rem;
