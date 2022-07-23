@@ -34,7 +34,7 @@ body{
     width: 15px;
     height: 15px;
     background: #fff;
-    z-index: 10000;
+    border-radius: 50%;
 
 }
 
