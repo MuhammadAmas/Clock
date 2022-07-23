@@ -15,7 +15,7 @@ function analogClockTime() {
     sec.style.transform = `rotateZ(${(seconds)}deg)`;
 
     // Clock ticking sound 
-    let audio = new Audio('c.wav')
+    let audio = new Audio('c.wav');
     audio.play();   
 
 }
@@ -55,7 +55,7 @@ function time() {
     document.getElementById('date').innerText = presentDate;
 }
 
-// Clock ticking sound 
+// Clock Ticking Sound 
 // let audio = new Audio('c.wav')
 // audio.play();
 
