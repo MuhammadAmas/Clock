@@ -31,7 +31,6 @@ function time() {
     let month = dateTime.getMonth();
     let year = dateTime.getFullYear();
 
-    console.log(month)
     let monthArr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
     let dayArr = ['Sunday','Monday','Tueday','Wednesday','Thursday','Friday','Saturday']
     if(hours >= 12){
@@ -46,7 +45,7 @@ function time() {
     let presentTime = `${hours}: ${minutes}: ${seconds} ${(meridian)}`;
     let presentDay = `${dayArr[day]}`;
     let presentDate = `${date} ${monthArr[month]} ${year}`
-    console.log(presentDate);
+   
 
     document.getElementById('display-clock').innerText = presentTime;
     document.getElementById('present-day').innerText = presentDay;
