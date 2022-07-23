@@ -15,8 +15,8 @@ function analogClockTime() {
     sec.style.transform = `rotateZ(${(seconds)}deg)`;
 
     // Clock ticking sound 
-       
-
+    let audio = new Audio('c.wav');
+    audio.play();
 }
 
 //Digital Clock
@@ -54,11 +54,6 @@ function time() {
     document.getElementById('date').innerText = presentDate;
 }
 
-function tickingSound(){
-    let audio = new Audio('a.mp3');
-    audio.play();
-}
-setInterval(tickingSound, 5000);
 setInterval(analogClockTime, 1000);
 setInterval(time, 1000);
 
