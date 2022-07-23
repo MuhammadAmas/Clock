@@ -34,7 +34,6 @@ body {
     height: 15px;
     background: #fff;
     border-radius: 50%;
-
 }
 
 .analog-clock .hour,
@@ -135,7 +134,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
     .display-clock {
         font-size: 2rem;
     }
