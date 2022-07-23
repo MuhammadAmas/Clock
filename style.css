@@ -120,6 +120,9 @@ body {
 
 /* Digital Clock */
 .display-clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #9c9b9b;
     padding: 10px 30px;
     border: 4px solid #091921;
