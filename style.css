@@ -136,10 +136,10 @@ body {
 }
 
 @media (max-width: 768px) {
-    /* .analog-clock {
-        width: 300px;
-        height: 300px;
-    } */
+    .analog-clock {
+        width: 350px;
+        height: 350px;
+    }
 
     .display-clock {
         font-size: 2rem;
